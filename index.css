@@ -1,0 +1,278 @@
+body
+{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.myname
+{
+	font-size: 30px;
+	font-family: Arial Black;
+	color:#f23805;
+	background-image: linear-gradient(to right,#d7f9fa,#8feff2,#56ced1,#8feff2,#d7f9fa);
+}
+.mymenu
+{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+}
+.mymenu:hover
+{
+	color:#f23805;
+	background-color:#8feff2 ;
+	height: 100%;
+	font-size: 25px;
+	transition-duration:0.5s; 
+
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index:1;
+}
+
+.maindiv
+{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.dv
+{
+	width: 100%;
+	
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.home
+{
+	height: 300px;
+	/*margin-top: 0px;*/
+	/*background-color: grey;*/
+	background-image: url('https://cdn.dribbble.com/users/4412543/screenshots/11086928/media/c23debeaf4452826b6883c90b771e5a8.gif');
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-position: bottom right;
+	
+}
+.homeinfo
+{
+	margin-top: 140px;
+	margin-left: 7%;
+
+}
+
+.info
+{
+	font-size: 15px;
+	color:darkblue;
+	font-weight: bolder;
+	margin: 5%;
+
+}
+.infoname
+{
+	font-size: 35px;
+	font-family: Arial Black !important;
+	color:#f23805;
+	font-weight: bolder;
+	text-shadow: 0px;
+	margin: 5%;
+
+}
+.infoname:hover
+{
+	text-shadow: 0px 5px 5px #56ced1;
+}
+
+.infodev
+{
+	font-size: 10px;
+	color: darkblue;
+	font-weight: bolder;
+	margin: 5%;
+}
+.infodev:hover
+{
+	font-size: 15px;
+	color: orangered;
+}
+.btn
+{
+	margin-left: 50px;
+
+}
+.btn button
+{
+	height: 30px;
+	width: 80px;
+	border:none;
+	background-color: #f23805;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.btn button:hover
+{
+	background-color: white;
+	color: #f23805;
+	border:2px solid #f23805;
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+
+.Sectionheading
+{
+	text-align: center;
+	font-size: 30px;
+	color: orangered;
+	font-weight: bolder;
+	margin-top: 30px;
+	font-family: sans-serif;
+	padding-top: 10px;
+}
+.Aboutsection
+{
+	height:450px;
+	width: 100%;
+	/*background-color: lightgrey;*/
+}
+.Abouttable
+{
+	width: 90%;
+}
+.tableimg
+{
+	width:45%;
+	height: 350px;
+	/*margin-top: 20px;*/
+}
+.aboutimg
+{
+ height: 300px;	
+ width: 300px;
+ margin-left: 100px;
+ border-radius: 50%;
+}
+.aboutimg:hover
+{ 
+ border-radius: 40%;
+ transition-duration: 1s;
+ box-shadow: 0px 0px 20px #56ced1;
+}
+.co
+{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bolder;
+	text-indent: 20%
+}
+
+.tableskill
+{
+	width: 100%;
+	height: 450px;
+	/*background-color: lightgrey;*/
+}
+.tSkills
+{
+	margin-top: 30px;
+	width: 90%;
+	height:300px;
+	background-image: url('https://wallpapercave.com/wp/wp3287720.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.tablerow
+{
+	height:15%;
+}
+.tableD
+{
+	width: 50%;
+	height:150px;
+}
+.heading
+{
+	color: blue;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.lang
+{
+	margin-top: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+.lang:hover
+{
+	font-size: 15px;
+	/*color:#07f5b2;*/
+	color: orangered;
+}
+.projectsection
+{
+	width: 100%;
+	height: 870px;
+	/*background-color: lightgrey;*/
+	/*display: inline-flex;*/
+}
+
+.card
+{
+	width: 300px;
+	/*border:none;*/
+}
+
+
+
+
+.button
+{
+	height: 40px;
+	width: 100px;
+   background-color: orangered;
+   color: white;
+   border:none;
+   margin-top: 40px;
+   margin-left: 400px;	
+   border-radius: 10px;
+}
+.button:hover
+{
+	background-color: white;
+	color: #f23805;
+	border:2px solid #f23805;
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+
+.inputform
+{
+	height: 50px; 
+	width:250px;
+}
+.inputmsg
+{
+	height: 100px;
+	width:550px;
+}
+.formdiv
+{
+	width: 600px;
+	margin-left: 150px;
+}
+.contactsection
+{
+	height: 500px;
+}
